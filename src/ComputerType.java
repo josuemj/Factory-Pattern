@@ -1,4 +1,3 @@
-//Clase de computadora HP
 class HpComputer implements Computer{
     @Override
     public double getPrice(){
@@ -6,7 +5,6 @@ class HpComputer implements Computer{
     }
 }
 
-//Clase de computadora Mac
 class MacComputer implements Computer{
     @Override
     public double getPrice(){
@@ -14,7 +12,6 @@ class MacComputer implements Computer{
     }
 }
 
-//Clase de computadora Dell
 class DellComputer implements Computer{
     @Override
     public double getPrice(){

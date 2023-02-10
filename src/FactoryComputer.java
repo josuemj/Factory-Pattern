@@ -1,5 +1,5 @@
 public class FactoryComputer {
-    public Computer getComputer(String type){
+    public static Computer getComputer(String type){
         switch(type){ //LOLAZO
             case "HpComputer":
                 return new HpComputer();
